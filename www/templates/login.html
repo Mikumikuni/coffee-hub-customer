@@ -1,0 +1,50 @@
+<ion-modal-view>
+  <div class="bar bar-header bar-light">
+          
+              <h1 class="title fontcsize">Login</h1>
+  
+</div>
+  <ion-content>
+    <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+    <div class="row">
+                <div class="col col-33"></div>
+                <div class="col col-33"><img src="img/coffee1.jpg" width="100%">
+                </div>
+                <div class="col col-33">
+                  
+                </div>
+
+
+
+            </div>
+      <div class="list list-inset">
+        <label class="item item-input">
+    <input type="text" placeholder="Username"ng-model="loginData.username">
+  </label>
+  <label class="item item-input">
+    <input type="password" placeholder="Password"ng-model="loginData.password">
+  </label>
+       <button class="button button-block button-positive"  ng-click="doLogin(loginData)">
+   Login
+</button>
+<button class="button button-block button-positive" ng-click="gotoFlogin()"><i class="icon ion-social-facebook" >
+ Facebook Login
+</button></i>
+   <button class="button button-block button-positive" ng-click="gotoRegister()">
+   Register
+</button>
+      </div>
+    
+  </ion-content>
+</ion-modal-view>

@@ -1,0 +1,52 @@
+<ion-modal-view>
+   <div class="bar bar-header bar-light">
+            <button class="button ion-ios-arrow-back fontsize"ng-click="gotoHome()"></button>
+              <h1 class="title fontcsize">Favorite</h1>
+           
+            <button class="button ion-plus-round fontsize"ng-click="gotoAddFavorite()"></button></a>
+  
+</div>
+            
+    
+<ion-scroll zooming="false" direction="y" style="width: auto; height: 500px">
+  <ion-content>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+<div class="list">
+  <a class="item item-icon-right fontcsize margin" >
+   
+    Favorite Menu 1
+    <i class="icon ion-ios-arrow-right" ng-click="gotoFavoriteMenu1()"></i>
+  </a>
+</div>
+  
+
+
+          </ion-content>
+          </ion-scroll>
+    <div class="tabs tabs-icon-top">
+  <a class="tab-item">
+    <i class="icon ion-coffee" ng-click="gotoNearby()"></i>
+    Coffee
+  </a>
+  <a class="tab-item">
+    <i class="icon ion-android-person" ng-click="gotoProfile()"></i>
+    Profile
+  </a>
+  <a class="tab-item">
+    <i class="icon ion-ios-heart" ng-click="gotoFavorite()"></i>
+    Favorites
+  </a>
+</div>
+ 
+</ion-modal-view>

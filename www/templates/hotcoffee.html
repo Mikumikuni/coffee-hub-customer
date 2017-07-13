@@ -1,0 +1,99 @@
+<ion-modal-view>
+  <div class="bar bar-header bar-light">
+            <button class="button ion-ios-arrow-back fontsize"ng-click="gotoDrink()"></button>
+              <h1 class="title fontcsize">Hot Coffee</h1>
+           
+            <button class="button ion-coffee fontsize"ng-click="gotoCart()"></button>
+  
+</div>
+<ion-scroll zooming="false" direction="y" style="width: auto; height: 500px">
+  <ion-content>
+ <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+<div class="row">
+  <div class="col col-33"><a class="item item-thumbnail-left item-icon-right" >
+      <img src="img/coffee1.jpg">
+      </a>
+      </div>
+  <div class="col col-33">
+    </div>
+  <div class="col col-33"><label class="item item-input">
+    <input class="fontcsize" type="text" placeholder="Number">
+  </label></div>
+</div>
+    
+      
+    
+          
+    
+
+ 
+   
+    <class="list list-inset">
+  
+   
+    
+  
+
+
+ 
+   
+   <a>
+        <label class="item item-input item-select">
+    <h2 class="fontcsize">Sweetness</h2>
+    <select class="fontcsize">
+      <option class="fontcsize1" selected>High</option>
+      <option class="fontcsize1">Medium</option>
+      <option class="fontcsize1">Low</option>
+    </select>
+   </a>
+    <a>
+        <label class="item item-input item-select">
+    <h2 class="fontcsize">Degree</h2>
+    <select class="fontcsize">
+      <option class="fontcsize1" selected>Regular</option>
+      <option class="fontcsize1" >Half-caf</option>
+      <option class="fontcsize1">De-caf</option>
+    </select>
+   </a>
+       <a>
+        <label class="item item-input item-select">
+    <h2 class="fontcsize">Syrup</h2>
+    <select class="fontcsize">
+      <option class="fontcsize1" selected>Caramel</option>
+      <option class="fontcsize1">Vanila</option>
+      <option class="fontcsize1">Sugar-fee</option>
+      <option class="fontcsize1">Hazenut</option>
+      <option class="fontcsize1">Rasberry</option>
+    </select>
+   </a>
+<a class="item item-icon-right" >
+   
+    <h2 class="fontcsize">Detail</h2>
+    <div class="list list-inset">
+  <label class="item item-input">
+    <input  class="fontcsize" type="text" placeholder="Detail">
+  </label>
+    </div>
+  </a>
+</div>
+
+<div class="button-bar">
+  <a class="button"ng-click="gotoMenuShop()">Add Cart</a>
+  <a class="button"ng-click="gotoCart()">Buy</a>
+  <a class="button"ng-click="gotoAddFavorite()">Favorite</a>
+</div>
+      </ion-content>
+          </ion-scroll>
+    
+</ion-modal-view>

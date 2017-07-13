@@ -1,0 +1,48 @@
+<ion-modal-view>
+  <div class="bar bar-header bar-light">
+            <button class="button ion-ios-arrow-back fontsize"ng-click="gotoFavorite()"></button>
+              <h1 class="title fontcsize">Add Favorite</h1>
+  </div>
+<ion-scroll zooming="false" direction="y" style="width: auto; height: 500px">
+  <ion-content>
+    <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+     <div class="row">
+       <div class="col col-100">
+       </div>
+     </div>
+<div class="list">
+  <label class="item item-input">
+   <input class="fontcsize" type="text" placeholder="FavoriteName"ng-model="loginData.FavoriteName">
+  </label>
+  <a class="item item-icon-right margin background" >
+    List Menu
+  </a>
+
+  <a class="item item-icon-right" >
+   
+
+   <a class="item item-icon-right" >
+   
+   Total  
+    
+  </a>
+
+</div>
+
+
+<div class="button-bar">
+  <a class="button"ng-click="gotoMenuShop()">Add Menu</a>
+  <a class="button"ng-click="gotoFavoriteMenu1()">Save Menu</a>
+  <a class="button"ng-click="gotoAddFavorite()">Clear Menu</a>
+</div>
+         </ion-content>
+          </ion-scroll>
+    
+</ion-modal-view>

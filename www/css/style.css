@@ -1,0 +1,14 @@
+/* Empty. Add your own CSS if you like */
+.fontcsize{font-size:20px !important;}
+.fontcsize1{font-size:15px !important;}
+.fontsize{font-size:40px !important;}
+.fontsize1{font-size:30px !important;}
+.margin{margin-bottom:150px;}
+.background{background: darkgray;}
+.inner_position_bottom{
+    height:0px; /* กำหนดความสูงส่วนของเนื้อหาที่นำมาซ้อนทับ */
+    width:100%; /* กำหนดความกว้างของเนื้อหาที่นำมาซ้อนทับ แบบขยายเต็ม */
+    bottom:20px; /* css กำหนดชิดด้านบน  */
+    z-index:999;
+}
+
