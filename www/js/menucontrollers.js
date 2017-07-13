@@ -6,6 +6,9 @@ angular.module('menu.controllers', [])
      $scope.gotoFavorite =function(){
         $state.go('favorite')
     }
+    $scope.gotoCupCoin =function(){
+        $state.go('cupcoin')
+    }
      $scope.gotoHistory =function(){
         $state.go('history')
     }

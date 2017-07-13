@@ -9,6 +9,9 @@ angular.module('profile.controllers', [])
      $scope.gotoProfile =function(){
         $state.go('profile')
     } 
+     $scope.gotoCupcoin =function(){
+        $state.go('cupcoin')
+    } 
      $scope.gotoEditProfile =function(){
         $state.go('editprofile')
     } 

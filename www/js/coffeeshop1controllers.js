@@ -3,6 +3,9 @@ angular.module('coffeeshop1.controllers', [])
    $scope.gotoMenuShop =function(){
         $state.go('menushop')
     } 
+     $scope.gotoHotCoffee =function(){
+        $state.go('hotcoffee')
+    } 
     $scope.gotoComment =function(){
         $state.go('comment')
     }
