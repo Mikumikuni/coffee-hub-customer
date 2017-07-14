@@ -1,5 +1,5 @@
 angular.module('tabs.controllers', [])
-.controller('TabsCtrl', function($scope,$state) {
+.controller('TabsCtrl', function($scope,$state,$ionicPopup) {
      $scope.gotoHome =function(){
         $state.go('app.home')
     }
