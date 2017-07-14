@@ -11,7 +11,7 @@ angular.module('register.controllers', [])
         'E-mail : '+ loginData.email+' : ' +
         'Telephone : '+ loginData.telephone+' : ' +
         'Address : '+ loginData.address)
-        $state.go('app.home');
+        $state.go('tabss');
 }
 
     $scope.gotoLogin=function(){

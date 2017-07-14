@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['scan.controllers','recevier.controllers','send.controllers','cupcoin.controllers','editprofile.controllers','profile.controllers','news.controllers','newspromotion.controllers','detailhistory.controllers','history.controllers','favoritemenu1.controllers','addfavorite.controllers','favorite.controllers','qrcode.controllers','cart.controllers','hotcoffee.controllers','drink.controllers','menushop.controllers','allcomment.controllers','comment.controllers','coffeeshop1.controllers','nearby.controllers','menu.controllers','ionic', 'starter.controllers','authen.controllers','register.controllers','home.controllers'])
+angular.module('starter', ['tabss.controllers','tabs.controllers','scan.controllers','recevier.controllers','send.controllers','cupcoin.controllers','editprofile.controllers','profile.controllers','news.controllers','newspromotion.controllers','detailhistory.controllers','history.controllers','favoritemenu1.controllers','addfavorite.controllers','favorite.controllers','qrcode.controllers','cart.controllers','hotcoffee.controllers','drink.controllers','menushop.controllers','allcomment.controllers','comment.controllers','coffeeshop1.controllers','nearby.controllers','menu.controllers','ionic', 'starter.controllers','authen.controllers','register.controllers','home.controllers'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -258,6 +258,22 @@ angular.module('starter', ['scan.controllers','recevier.controllers','send.contr
     
         templateUrl: 'templates/scan.html',
         controller: 'ScanCtrl'
+        
+    }
+  )
+  .state('tabs', {
+    url: '/tabs',
+    
+        templateUrl: 'templates/tabs.html',
+        controller: 'TabsCtrl'
+        
+    }
+  )
+  .state('tabss', {
+    url: '/tabss',
+    
+        templateUrl: 'templates/tabss.html',
+        controller: 'TabssCtrl'
         
     }
   )

@@ -1,0 +1,19 @@
+<ion-view view-title="Cup Coins">
+    <ion-content>
+    </ion-content>
+    <ion-tabs class="tabs-positive tabs-icon-top">
+        <ion-tab title="Home" icon-on="ion-earth" icon-off="ion-earth">
+                <div ng-include src="'templates/home.html'"></div>
+        </ion-tab>
+        <ion-tab title="Profile" icon-on="ion-social-usd-outline" icon-off="ion-social-usd-outline">
+            <ion-view>
+                <div ng-include src="'templates/profile.html'"></div>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="Favorite" icon-on="ion-social-bitcoin-outline" icon-off="ion-social-bitcoin-outline">
+            <ion-view>
+                <div ng-include src="'templates/favorite.html'"></div>
+            </ion-view>
+        </ion-tab>
+    </ion-tabs>
+</ion-view>

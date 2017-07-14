@@ -1,11 +1,19 @@
-<div class="tabs">
-  <a class="tab-item">
-    Home
-  </a>
-  <a class="tab-item">
-    Favorites
-  </a>
-  <a class="tab-item">
-    Settings
-  </a>
-</div>
+<ion-view view-title="Cup Coins">
+    <ion-content>
+    </ion-content>
+    <ion-tabs class="tabs-positive tabs-icon-top">
+        <ion-tab title="Overview" icon-on="ion-earth" icon-off="ion-earth">
+                <div ng-include src="'templates/cupcoin.html'"></div>
+        </ion-tab>
+        <ion-tab title="Send" icon-on="ion-social-usd-outline" icon-off="ion-social-usd-outline">
+            <ion-view>
+                <div ng-include src="'templates/send.html'"></div>
+            </ion-view>
+        </ion-tab>
+        <ion-tab title="Recevier" icon-on="ion-social-bitcoin-outline" icon-off="ion-social-bitcoin-outline">
+            <ion-view>
+                <div ng-include src="'templates/recevier.html'"></div>
+            </ion-view>
+        </ion-tab>
+    </ion-tabs>
+</ion-view>
